@@ -1,7 +1,7 @@
 ## File Creation
-**Filename**: YYYY-MM-DD-YourTitle.md
+*Filename*: YYYY-MM-DD-YourTitle.md
 
-**Top of File**:
+*Top of File*:
 ```md
 title: YourTitle
 description: Your description of the post
@@ -21,7 +21,7 @@ juncture: true                          # Must be enabled to allow action links,
 The categories of each post are designed for two elements. The tags are designed for zero to infinitely many elements.
 
 
-** Additional features for top of file **
+*Additional features for top of file*
 ```md
 pin: true                   # Allows you to pin one or more posts to the top of the home page
 ```
@@ -45,7 +45,7 @@ For example:
 ```
 
 ## Images
-** Adding Images**:
+*Adding Images*:
 ```md
 Your Paragraph About The Image
 {% include embed/image.html src="YourImageSource" caption="YourImageCaption" %}
@@ -100,7 +100,7 @@ To open the tool:
 ```
 
 
-** Additional features for Images**:
+*Additional features for Images*:
 ```md
 Adding Zooming Functionality
 The id tag assigned is the used in the zoomto action underneath.
@@ -166,14 +166,14 @@ You could also specify a caption like with the images, or the zoom. Zoom is at a
 
 
 
-** Technical Adding Media **
+*Technical Adding Media*
 ```md
 {% include embed/{Platform}.html id='{ID}' %}
 With Platform being the lowercase of the platform name and ID being the video ID.
 This allows for youtube, twitch, bilibili and spotify.
 ```
 
-** Technical Embedding Video (Not Youtube, but an MP4) **
+*Technical Embedding Video (Not Youtube, but an MP4)*
 ```md
 {% include embed/video.html src='{URL}' %}
 Where URL is replaced by the path to your sample mp4
@@ -191,9 +191,9 @@ Additional features you could add:
 
 # Editing Process
 1. Edit in GitHub
-2. Click *Commit changes*
+2. Click*Commit changes*
 3. Wait ~ 5 seconds
-4. Click *Reload* in the preview
+4. Click*Reload*in the preview
 Repeat as required
 
 
