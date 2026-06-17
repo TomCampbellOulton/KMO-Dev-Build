@@ -164,6 +164,10 @@ You could also specify a caption like with the images, or the zoom. Zoom is at a
 %}
 ```
 
+## Audio Files
+1. Add to the top of the post: "media_subpath: /assets/posts/YourPostsName"
+2. Add the audio file (mp3, m4a or wav) to the following folder: "assets/posts/YourPostsName/YourAudioFilesName.mp3" (.mp3 to be replaced with your audio files file type, e.g. .m4a or .wav)
+3. In your post where you want the audio to appear, add the following: {% include audio.html src="YourAudioFilesName.mp3" %}
 
 
 *Technical Adding Media*
@@ -198,23 +202,3 @@ Repeat as required
 
 
 
-
-
-
-
-
-## Questions for Ron
-Is "permalink: theLink" automatic / can it be made automatic or will / should it rely upon the author.
-Same for description
-
-Why aren't we using the author id tags functionality?
-
-For the images, why not use the default Chirpy: 
-![img-description](/path/to/image)
-_Image Caption_
-![Desktop View](/assets/img/sample/mockup.png){: .left }    # Float to the left
-![Desktop View](/assets/img/sample/mockup.png){: .right }   # Float to the right
-
-
-2005-07-01-20c-hop-picking.md File doesn't appear on website? Hoppicking-oulton only shows (whose link for Canterbury is also broken - [Canterbury]({{ site.baseurl }}/20c-canterbury-ww2) does not exist)
-_posts/2019-08-01-19c-austen-biography.md doesn't appear on website either...
